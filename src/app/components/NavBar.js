@@ -29,11 +29,13 @@ const NavBar = ({ onSearch, loading }) => {
             className={`border p-2 mr-2 rounded-md ${formError ? "border-red-500 mt-4" : ""}`}
             placeholder="Type to search"
             style={{ width: "300px" }}
+            id="search-input"
           />
 
           <span className="text-red-500 text-sm text-left px-2">{formError}</span>
         </div>
         <button
+          id="submit-button"
           type="submit"
           className="bg-blue-500 text-white px-4 py-2 rounded"
           disabled={loading}>
