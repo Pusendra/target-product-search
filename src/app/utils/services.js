@@ -1,7 +1,7 @@
-import { basePath } from "../../../next.config";
+import config from "../config/config";
 
 export const getEndpoint = (path) => {
-  return `${basePath}${path}`;
+  return `${config?.basePath}${path}`;
 };
 
 export const GET_PRODUCTS_DETAILS = "/products";
