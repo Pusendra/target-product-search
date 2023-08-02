@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { TARGET_DOT_COM_BASE_URL } from "../utils/api";
 
 function ProductList({ products }) {
   return (
@@ -7,11 +8,10 @@ function ProductList({ products }) {
         {products?.slice(0, 9)?.map((product) => (
           <div key={product.tcin} className="border p-4">
             <a
-              href={`https://www.target.com${product.href}`}
+              href={`${TARGET_DOT_COM_BASE_URL}${product.href}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="block mb-2"
-            >
+              className="block mb-2">
               <img
                 src={product.imageLink}
                 alt={product.title}
@@ -19,13 +19,11 @@ function ProductList({ products }) {
               />
             </a>
             <a
-              href={`https://www.target.com${product.href}`}
+              href={`${TARGET_DOT_COM_BASE_URL}${product.href}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 font-semibold text-justify"
-            >
+              className="text-blue-600 font-semibold text-justify">
               <span> {product.title}</span>
-             
             </a>
           </div>
         ))}
@@ -33,7 +31,5 @@ function ProductList({ products }) {
     </div>
   );
 }
-
-
 
 export default ProductList;
