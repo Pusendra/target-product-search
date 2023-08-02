@@ -21,6 +21,10 @@ This is a simple Next.js web application that allows users to search for product
 1. Run the application: `yarn run dev`.
 2. Open your web browser and go to `http://localhost:3000`.
 
+## Testing
+
+To run tests, use the following command: `yarn test`.
+
 ## How to Use
 
 1. Enter a search query in the search box.

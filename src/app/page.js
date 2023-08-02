@@ -37,7 +37,7 @@ const HomePage = () => {
       <NavBar onSearch={handleSearch} loading={loading} />
       {loading ? (
         <div style={{ height: "400px" }} className="flex justify-center items-center">
-          <div role="status w-100 h-100">
+          <div role="status w-100 h-100" id="spinner">
             <svg
               aria-hidden="true"
               className="inline w-10 h-10 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
