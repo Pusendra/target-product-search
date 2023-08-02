@@ -5,8 +5,8 @@ function ProductList({ products }) {
   return (
     <div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-2 bg-slate-50 rounded-sm">
-        {products?.slice(0, 9)?.map((product) => (
-          <div key={product.tcin} className="border p-4">
+        {products?.slice(0, 9)?.map((product,index) => (
+          <div key={index} className="border p-4 product">
             <a
               href={`${TARGET_DOT_COM_BASE_URL}${product.href}`}
               target="_blank"
