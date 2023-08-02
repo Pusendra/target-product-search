@@ -44,10 +44,6 @@ If you'd like to contribute to this project, you can follow these steps:
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-If you have any questions or suggestions, please feel free to open an issue or contact us at contact@example.com.
+If you have any questions or suggestions, please feel free to open an issue or contact us at cpusendra@gmail.com.
