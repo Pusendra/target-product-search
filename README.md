@@ -27,10 +27,6 @@ This is a simple Next.js web application that allows users to search for product
 2. Click the "Search" button or press Enter to search for products.
 3. The search results will be displayed in a grid format below the search box.
 
-## Testing
-
-To run tests, use the following command: `yarn test`.
-
 ## Technologies Used
 
 - Node.js 18.5
