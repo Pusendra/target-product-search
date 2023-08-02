@@ -30,6 +30,7 @@ To run tests, use the following command: `yarn test`.
 1. Enter a search query in the search box.
 2. Click the "Search" button or press Enter to search for products.
 3. The search results will be displayed in a grid format below the search box.
+4. When clicked on result it will redirect to details page on target.com.
 
 ## Technologies Used
 
